@@ -13,7 +13,7 @@ st.markdown(
 st.markdown(""
 )
 
-data = pd.read_csv('C:/Drive/Documents/UNCC/5122/IRS 990 Data.csv')
+data = pd.read_csv('IRS 990 Data.csv')
 
 
 data = data[['TOTEMPLOYEE', 'TOTVOLUNTEERS','SALARIESCURRENT', 'TOTALREVCURRENT', 'TOTALREVPRIOR']]
